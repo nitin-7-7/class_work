@@ -1,0 +1,15 @@
+REST API - json
+
+GET /users - HTML document render 
+GET /api/users - list of user Json - done 
+
+GET /api/users/1 - get the user one 1
+GET /api/users/2 - get the user one 2
+1 ,2 3 ye dynamic hai ==> : 
+==> GET /api/users/:id 
+
+POST /api/user  - crete new user
+
+Patch /api/user/1 = edit the user one 
+
+//for json data mockaroo web 

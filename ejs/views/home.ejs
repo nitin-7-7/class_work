@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <%= include("./common/header")%>  ye pura code dedde ga-->
+     <%- include("./common/header")%>  
+     <!-- for contain -->
+    <h1> hello bhai ji </h1>
+    <h2> name is <%= student.name %></h2>
+    <h2> age is <%= student.age %></h2>
+    <h2> city is <%= student.city %></h2>
+    <h2> email is <%= student.email %></h2>
+    <h2> hobby is </h2>
+    <ul>
+        <!-- for each -->
+        <!-- <% student.hobby.forEach((h)=>{%>
+
+                <li><%= h %></li>
+                <%})%> -->
+        <!-- by for -->
+        <!-- <% for(let i =0;i<student.hobby.length;i++){%>
+            <li></li><%= student.hobby[i] %></li>
+        <%}%>  -->
+        
+    </ul>
+</body>
+</html>
+
+<!-- <% %> expretion ke liye 
+<%= %> screen pr show kr ne ke liye  -->
